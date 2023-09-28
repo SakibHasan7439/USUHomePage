@@ -107,3 +107,24 @@
   font-size: 35px;
   font-family:LucidaGrandaBold;
 }
+
+.volenteer-link {
+  top: 200px;
+  left: 190px;
+  font-size: 20px;
+  font-family:LucidaGrandaBold;
+  background-color: #000000;
+  width: 200px;
+}
+
+.cards-title {
+  font-family: LucidaGrandaBold;
+  color: #000000;
+  font-size: 20px;
+}
+
+.cards-text {
+  font-family: LucidaGranda;
+  color: #000000;
+  font-size: 20px;
+}
