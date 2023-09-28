@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+@font-face {
+  font-family: LucidaGranda;
+  src: url(project3-fonts/LucidaGrande.ttf);
+}
+
+@font-face {
+  font-family: LucidaGrandaBold;
+  src: url(project3-fonts/LucidaGrandeBold.ttf);
+}
+
+.usyd-desktop-img {
+  background: url(project3-images/USYDStoreSlide1Slider2Desktop.jpg);
+  background-repeat: no-repeat;
+  height: 60%;
+  background-position: center;
+  background-size: cover;
+}
+.usyd-desktop-txt {
+  font-family: LucidaGrandaBold;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding-top: 120px;
+}
+
+.usyd-ipad-img {
+  background: url(project3-images/GradHireSlide2Slider2Desktop.jpg);
+  background-repeat: no-repeat;
+  height: 25%;
+  background-size: contain;
+}
+
+.usyd-mobile-img {
+  background: url(project3-images/USYDStoreSlide1Slider2Mobile.jpg);
+  background-repeat: no-repeat;
+  height: 57%;
+  background-position: center;
+  background-size: cover;
+}
+.usyd-mobile-txt {
+  font-family: LucidaGrandaBold;
+  font-size: 55px;
+  text-transform: uppercase;
+  padding-top: 124px;
+}
+.mobile-button-size {
+  width: 280px;
+  background-color: #fce200;
+  font-family: LucidaGrandaBold;
+  text-transform: uppercase;
+}
+
+.usyd-ipad-txt {
+  font-family: LucidaGrandaBold;
+  font-size: 60px;
+  padding-top: 60px;
+  text-transform: uppercase;
+}
+.button-size {
+  width: 280px;
+  background-color: #fce200;
+  font-family: LucidaGrandaBold;
+  text-transform: uppercase;
+}
+
+.ipad-button-size {
+  width: 260px;
+  background-color: #fce200;
+  font-family: LucidaGrandaBold;
+}
+
+.text-center {
+  text-align: center;
+}
+.width {width: 100%;}
+
+.student-board-text {
+  position: absolute;
+  font-family: LucidaGrandaBold;
+  font-size: 35px;
+  top: 100px;
+  left: 14%;
+  text-transform: uppercase;
+}
+
+.student-board-link {
+  position: absolute;
+  font-family: LucidaGrandaBold;
+  bottom: 140px;
+  left: 33%;
+  text-transform: uppercase;
+  width: 200px;
+  background-color: #000000;
+}
+
+.volenteer {
+  top: 92px;
+  left: 180px;
+  font-size: 35px;
+  font-family:LucidaGrandaBold;
+}
