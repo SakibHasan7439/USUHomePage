@@ -120,11 +120,34 @@
 .cards-title {
   font-family: LucidaGrandaBold;
   color: #000000;
-  font-size: 20px;
+  font-size: 33px;
 }
 
 .cards-text {
   font-family: LucidaGranda;
   color: #000000;
+  font-size: 28px;
+}
+.card-icon{
+  bottom: 10px;
+  right: 2px;
+  font-size: 30px;
+}
+
+.desk-card-title {
+  font-family: LucidaGrandaBold;
+  color: #000000;
+  font-size: 16px;
+}
+
+.desk-cards-text {
+  font-family: LucidaGranda;
+  color: #000000;
+  font-size:14px;
+}
+
+.desk-card-icon{
+  bottom: 20px;
+  right: 2px;
   font-size: 20px;
 }
