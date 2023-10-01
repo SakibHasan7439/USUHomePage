@@ -156,25 +156,25 @@
 .card-icon{
   bottom: 25px;
   right: 2px;
-  font-size: 26px;
+  font-size: 23px;
 }
 
 .reward-card-icon{
   bottom: 15px;
   right: 2px;
-  font-size: 26px;
+  font-size: 23px;
 }
 
 .key-event-icon {
   bottom: 15px;
   right: 2px;
-  font-size: 26px;
+  font-size: 23px;
 }
 
 .sustainability-icon {
   bottom: 15px;
   right: 2px;
-  font-size: 26px;
+  font-size: 23px;
 }
 
 .desk-card-title {
@@ -208,7 +208,7 @@
   color: #ffffff;
 }
 .footer-text {
-  font-size: 24px;
+  font-size: 22px;
   font-family: LucidaGrandaBold;
 }
 
@@ -219,5 +219,11 @@
 
 .footer-section-icon {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 28px;
+}
+
+
+.footer-last-text {
+  font-size: 17px;
+  font-family: LucidaGranda;
 }
