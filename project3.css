@@ -20,22 +20,24 @@
 .usyd-desktop-img {
   background: url(project3-images/USYDStoreSlide1Slider2Desktop.jpg);
   background-repeat: no-repeat;
-  height: 60%;
+  height: 100%;
   background-position: center;
   background-size: cover;
 }
 .usyd-desktop-txt {
   font-family: LucidaGrandaBold;
-  font-size: 60px;
+  font-size: 80px;
   text-transform: uppercase;
-  padding-top: 120px;
+  font-weight: bolder;
 }
 
 .usyd-ipad-img {
-  background: url(project3-images/GradHireSlide2Slider2Desktop.jpg);
+  background: url(project3-images/GradHireSlide2Slider2Mobile.jpg);
   background-repeat: no-repeat;
-  height: 25%;
-  background-size: contain;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .usyd-mobile-img {
@@ -58,9 +60,20 @@
   text-transform: uppercase;
 }
 
+.usyd-ipad-txt-pos {
+  top: 334px;
+  left: 37px;
+}
+
+.usyd-desk-pos {
+  top: 300px;
+  left: 300px;
+
+}
+
 .usyd-ipad-txt {
   font-family: LucidaGrandaBold;
-  font-size: 60px;
+  font-size: 78px;
   padding-top: 60px;
   text-transform: uppercase;
 }
@@ -101,6 +114,9 @@
   background-color: #000000;
 }
 
+.card-bg-color {
+  background-color: #f8f8f8;
+}
 .volenteer {
   top: 92px;
   left: 180px;
@@ -120,24 +136,53 @@
 .cards-title {
   font-family: LucidaGrandaBold;
   color: #000000;
-  font-size: 33px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.desk-card-title {
+  font-family: LucidaGrandaBold;
+  color: #000000;
+  font-size: 20px;
 }
 
 .cards-text {
   font-family: LucidaGranda;
   color: #000000;
-  font-size: 28px;
+  font-size: 20px;
 }
+
 .card-icon{
-  bottom: 10px;
+  bottom: 25px;
   right: 2px;
-  font-size: 30px;
+  font-size: 26px;
+}
+
+.reward-card-icon{
+  bottom: 15px;
+  right: 2px;
+  font-size: 26px;
+}
+
+.key-event-icon {
+  bottom: 15px;
+  right: 2px;
+  font-size: 26px;
+}
+
+.sustainability-icon {
+  bottom: 15px;
+  right: 2px;
+  font-size: 26px;
 }
 
 .desk-card-title {
   font-family: LucidaGrandaBold;
   color: #000000;
   font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 .desk-cards-text {
@@ -149,5 +194,30 @@
 .desk-card-icon{
   bottom: 20px;
   right: 2px;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.ipad-icon {
+  bottom: 20px;
+  right: 4px;
+  font-size: 16px; 
+}
+
+.footer-bg {
+  background-color: #000000;
+  color: #ffffff;
+}
+.footer-text {
+  font-size: 24px;
+  font-family: LucidaGrandaBold;
+}
+
+.horizontal-line {
+ background-color: #ffffff;
+ height: 1px;
+}
+
+.footer-section-icon {
+  color: #ffffff;
+  font-size: 50px;
 }
