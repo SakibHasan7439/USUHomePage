@@ -17,140 +17,48 @@
   src: url(project3-fonts/LucidaGrandeBold.ttf);
 }
 
-.usyd-desktop-img {
-  background: url(project3-images/USYDStoreSlide1Slider2Desktop.jpg);
-  background-repeat: no-repeat;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-.usyd-desktop-txt {
-  font-family: LucidaGrandaBold;
-  font-size: 80px;
-  text-transform: uppercase;
-  font-weight: bolder;
-}
-
-.usyd-ipad-img {
-  background: url(project3-images/GradHireSlide2Slider2Mobile.jpg);
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.usyd-mobile-img {
-  background: url(project3-images/USYDStoreSlide1Slider2Mobile.jpg);
-  background-repeat: no-repeat;
-  height: 57%;
-  background-position: center;
-  background-size: cover;
-}
-.usyd-mobile-txt {
-  font-family: LucidaGrandaBold;
-  font-size: 55px;
-  text-transform: uppercase;
-  padding-top: 124px;
-}
-.mobile-button-size {
-  width: 280px;
-  background-color: #fce200;
-  font-family: LucidaGrandaBold;
-  text-transform: uppercase;
-}
-
-.usyd-ipad-txt-pos {
-  top: 334px;
-  left: 37px;
-}
-
 .usyd-desk-pos {
-  top: 300px;
-  left: 300px;
+  top: 30%;
+  left: 38%;
 
 }
 
-.usyd-ipad-txt {
+.usyd-txt {
   font-family: LucidaGrandaBold;
   font-size: 78px;
   padding-top: 60px;
-  text-transform: uppercase;
+  font-weight: bold;
+
 }
 .button-size {
   width: 280px;
   background-color: #fce200;
-  font-family: LucidaGrandaBold;
-  text-transform: uppercase;
+  font-family: LucidaGr
 }
-
-.ipad-button-size {
-  width: 260px;
-  background-color: #fce200;
-  font-family: LucidaGrandaBold;
-}
-
 .text-center {
   text-align: center;
 }
 .width {width: 100%;}
 
-.student-board-text {
-  position: absolute;
-  font-family: LucidaGrandaBold;
-  font-size: 35px;
-  top: 100px;
-  left: 14%;
-  text-transform: uppercase;
-}
-
-.student-board-link {
-  position: absolute;
-  font-family: LucidaGrandaBold;
-  bottom: 140px;
-  left: 33%;
-  text-transform: uppercase;
-  width: 200px;
-  background-color: #000000;
-}
 
 .card-bg-color {
   background-color: #f8f8f8;
-}
-.volenteer {
-  top: 92px;
-  left: 180px;
-  font-size: 35px;
-  font-family:LucidaGrandaBold;
-}
-
-.volenteer-link {
-  top: 200px;
-  left: 190px;
-  font-size: 20px;
-  font-family:LucidaGrandaBold;
-  background-color: #000000;
-  width: 200px;
 }
 
 .cards-title {
   font-family: LucidaGrandaBold;
   color: #000000;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   padding-top: 10px;
 }
 
-.desk-card-title {
-  font-family: LucidaGrandaBold;
-  color: #000000;
-  font-size: 20px;
-}
+
 
 .cards-text {
   font-family: LucidaGranda;
   color: #000000;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .card-icon{
@@ -219,11 +127,89 @@
 
 .footer-section-icon {
   color: #ffffff;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 
 .footer-last-text {
   font-size: 17px;
   font-family: LucidaGranda;
+}
+
+.footer-desk-text {
+  font-family: LucidaGrandaBold;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.desk-horizontal-line {
+  background-color: #ffffff;
+  height: 1px;
+  margin-left: 0;
+  width: 242px;
+ }
+ .li-style {
+  list-style: none;
+ }
+
+ .footer-desk-icon {
+  color: #ffffff;
+  font-size: 24px;
+}
+.school-board-position {
+  top: 10%;
+
+}
+.school-board-text {
+  font-family: LucidaGrandaBold;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.volunteer-position {
+  top: 20%;
+  left: 20%;
+}
+
+.desk-school-board {
+  top: 17%;
+  left: 10%;
+}
+
+.button-position {
+  top: 65%;
+  left: 30%;
+}
+
+.button-text {
+  font-family: LucidaGrandaBold;
+  font-size: 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.volunteer-button-position {
+  top: 55%;
+  left: 30%;
+}
+
+.membership-text {
+  font-family: LucidaGrandaBold;
+  font-size: 37px;
+  font-weight: bold;
+  top: 60px; 
+  left: 75px;
+}
+
+.membership-button {
+  background-color: #000000;
+  top: 170px; 
+  left: 135px;
+}
+
+.clubs-text {
+  font-family: LucidaGrandaBold;
+  font-size: 37px;
+  font-weight: bold;
+  top: 30px; 
+  left: 120px;
 }
