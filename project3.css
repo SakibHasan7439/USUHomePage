@@ -59,6 +59,7 @@
   font-family: LucidaGranda;
   color: #000000;
   font-size: 17px;
+  min-height: 110px;
 }
 
 .card-icon{
@@ -168,7 +169,13 @@
 
 .volunteer-position {
   top: 20%;
-  left: 20%;
+  left: 24%;
+}
+
+@media screen and (min-width: 414px) and (max-width: 820px) {
+  .volunteer-position{
+    left: 20%;
+  }
 }
 
 .desk-school-board {
@@ -176,8 +183,13 @@
   left: 10%;
 }
 
+@media screen and (min-width: 414px) and (max-width: 820px) {
+  .desk-school-board{
+    top: 4%;
+  }
+}
 .button-position {
-  top: 65%;
+  top: 56%;
   left: 30%;
 }
 
@@ -189,27 +201,269 @@
 }
 .volunteer-button-position {
   top: 55%;
-  left: 30%;
+  left: 35%;
+}
+@media screen and (min-width: 414px) and (max-width : 820px) {
+  .volunteer-button-position {
+    left: 30%;
+  }
 }
 
 .membership-text {
   font-family: LucidaGrandaBold;
-  font-size: 37px;
+  font-size: 40px;
   font-weight: bold;
   top: 60px; 
   left: 75px;
 }
-
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .membership-text {
+    font-size: 37px;
+    top: 30px; 
+    left: 55px;
+  }
+}
 .membership-button {
   background-color: #000000;
   top: 170px; 
   left: 135px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .membership-button {
+    top: 142px; 
+    left: 100px;
+  }
+}
 .clubs-text {
   font-family: LucidaGrandaBold;
   font-size: 37px;
   font-weight: bold;
   top: 30px; 
   left: 120px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .clubs-text{
+    font-size: 37px;
+    font-weight: bold;
+    top: 3px;
+    left: 16px;
+    text-align: center;
+  }
+}
+.header-background {
+  background-color: #fce200;
+}
+
+.header-icon {
+  font-size: 30px;
+}
+
+.internel-background {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.input-style {
+  padding-left: 57px;
+  padding-right: 57px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+} 
+
+.search-icon {
+  font-size: 24px;
+}
+
+.button-background {
+  background-color: #fce200;
+}
+.magnifying-glass {
+  top: 0;
+  left: 310px;
+}
+.internel-text-headers {
+  font-family: LucidaGrandaBold;
+  font-weight: bold;
+  font-size: 22px;
+}
+.internel-texts {
+  font-family: LucidaGranda;
+  color: #595959;
+  line-height: 1.8;
+}
+.internel-headers-padding {
+  padding-top: 37px;
+}
+.black-color {
+  color: #000000;
+}
+
+.header-input {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.header-input-position {
+  right: 116;
+  top: 51px;
+}
+
+.usyd-store-text {
+  font-family: LucidaGrandaBold Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 52px;
+  padding-bottom: 185px;
+}
+
+@media screen and (max-width: 414px) {
+  .usyd-store-text {
+    font-size: 29px;
+    padding-bottom: 212px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .usyd-store-text {
+    padding-bottom: 360px;
+  }
+
+}
+
+.shop-text {
+  padding-bottom: 134px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .shop-text {
+    padding-bottom: 250px;
+  }
+}
+.shop-background {
+  font-family: LucidaGrandaBold Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fce200;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.nomination-text {
+  font-family: LucidaGrandaBold Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  padding-bottom: 200px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .nomination-text {
+    padding-bottom: 250px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .nomination-text {
+    font-size: 25px;
+    padding-bottom: 180px;
+  }
+}
+.nomination-button {
+  padding-bottom: 130px;
+}
+
+@media screen and(min-width: 414px) and (max-width: 820px) {
+  .nomination-button {
+    padding-bottom: 130px;
+  }
+}
+
+.indicator-style {
+  width: 15px;
+  height: 15px; 
+  border-radius: 50%;
+}
+
+.hair-now-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.membership {
+  font-family: LucidaGrandaBold Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 52px;
+  padding-bottom: 250px;
+}
+
+@media screen and (max-width: 414px) {
+  .membership {
+    font-size: 35px;
+    padding-bottom: 200px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .membership {
+    padding-bottom: 365px;
+  }
+}
+.membership-button-style {
+  font-family: LucidaGrandaBold;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #fce200;
+}
+
+.membership-button-padding {
+  padding-bottom: 200px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .membership-button-padding {
+    padding-bottom: 310px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .membership-button-padding {
+    padding-bottom: 150px;
+  }
+}
+.letest-update-padding {
+    padding-bottom: 120px;
+}
+
+@media screen and (min-width: 414px) and (max-width: 820px) {
+  .letest-update-padding {
+    padding-bottom: 255px
+  }
+}
+
+.letest-button-style {
+  font-family: LucidaGrandaBold;
+  font-weight: bold;
+  font-size: 18px;
+  width: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #fce200;
+}
+
+.youtube {
+  width: 100%;
+  height: 450px
+}
+@media screen and (max-width: 414px) {
+  .youtube {
+    height: 250px;
+  }
+}
+
+.arrow-color {
+  color: #000000;
 }
